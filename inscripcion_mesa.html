@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Inscripción a mesa de examen</title>
+</head>
+<body>
+
+    <img src="img/cartel_superior.png">
+
+    <hr>
+    <section>
+    <h1>Inscripción a mesa de examen</h1>
+
+    <form action="mesa.html" method="post">
+         <label for="carrera_id">Carrera
+            <!-- <input id="carrera_id" required placeholder="Carrera" type="text" name="carrera"> -->
+            <select id="carrera_id" required placeholder="Carrera" type="text" name="carrera">
+                <option>Seleccionar</option>
+                <option>Historia</option>
+                <option>Biología</option>
+                <option>Literatura</option>
+            </select>
+        </label>
+        <label for="turno_id">Turno
+            <!-- <input id="turno_id" required placeholder="Turno" type="text" name="turno"> -->
+            <select id="turno_id" required placeholder="Turno" type="text" name="turno">
+                <option>Seleccionar</option>
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </label>
+        <label for="fecha_id">Fecha
+            <input id="fecha_id" required placeholder="mm/dd/aaaa" type="date" name="fecha">
+        </label>
+        <label for="profesor_id">Profesor
+            <!-- <input id="profesor_id" required placeholder="Profesor" type="text" name="profesor"> -->
+            <select id="profesor_id" required placeholder="Profesor" type="text" name="profesor">
+                <option>Seleccionar</option>
+                <option>AAA</option>
+                <option>PPP</option>
+                <option>YYY</option>
+            </select>
+        </label>
+        <input type="submit" value="Inscribirse">
+    </form>
+    </section>
+</body>
+
+</html>

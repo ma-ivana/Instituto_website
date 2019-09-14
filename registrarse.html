@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Registrarse</title>
+</head>
+    <body>
+
+    <img src="img/cartel_superior.png">
+
+    <hr>
+    <section>
+    <h1>Registro de alumno</h1>
+
+    <form action="registrado.html" method="post">
+         <label for="nombre_id">Nombre
+            <input id="nombre_id" required placeholder="Nombre" type="text" name="nombre">
+        </label>
+        <label for="apellido_id">Apellido
+            <input id="apellido_id" required placeholder="Apellido" type="text" name="apellido">
+        </label>
+        <label for="dni_id">DNI
+            <input id="dni_id" required minlength="8" maxlength="8" placeholder="DNI" type="number" name="dni">
+        </label>
+        <label for="tel_id">Teléfono
+            <input id="tel_id" required placeholder="Teléfono" type="number" name="tel">
+        </label>
+        <label for="email_id">Correo electrónico
+            <input id="email_id" required placeholder="Correo electrónico" type="email" name="email">
+        </label>
+        <label for="usuario_id">ID de usuario
+            <input id="usuario_id" required placeholder="ID de usuario" type="text" name="IDusuario">
+        </label>
+        <label for="password_id">Contraseña
+            <input id="password_id" required placeholder="Contraseña" type="password" name="password">
+        </label>
+        <label for="password2_id">Repetir contraseña
+            <input id="password2_id" required placeholder="Repetir contraseña" type="password" name="password2">
+        </label>
+        <input type="submit" value="Registrarse">
+    </form>
+    </section>
+</body>
+
+</html>
